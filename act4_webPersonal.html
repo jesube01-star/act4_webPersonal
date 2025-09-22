@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Web Information TI</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, Montserrat, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        h1, h2, h3, h4 {
+            color: rgb(28, 32, 107);
+        }
+        header {
+            background-color: #6eafbb;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section, article, aside {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        }
+        aside {
+            background-color: rgb(80, 171, 250);
+            border-left: 4px solid rgb(29, 107, 232);
+        }
+        footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 15px;
+        }
+        .fab {
+            color: white;
+            font-size: 1.6em;
+        }
+        .fab:hover {
+            color: rgb(172, 172, 174);
+        }
+    </style>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <h1> BELTRÁN SÁNCHEZ JESÚS ANTONIO </h1>
+        <nav>
+            <ul>
+                <li><a href="#bio">Biografía</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#rutina">Rutina</a></li>
+                <li><a href="#galeria">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Biografía -->
+        <section id="bio">
+            <h2>Biografía</h2>
+            <p><b>Mi nombre es Jesús Antonio Beltrán Sánchez</b>, nací el <u>29 de enero de 2001</u> en 
+            <i>Coacalco de Berriozábal, Estado de México</i>.  
+            Soy hijo de <mark>Giuliana Beatriz</mark> y <mark>Alfonso Beltrán</mark>, y tengo un hermano mayor llamado <strong>Giovany Alfonso</strong>, con quien me llevo apenas once meses.</p>
+            <p>Pasé mi infancia en el Estado de México hasta que mi familia y yo nos mudamos a <em>León, Guanajuato</em>.  
+            A los 19 años viajé a <s>Houston, Texas</s> en busca de mejores oportunidades, pero después de tres años regresé a León para concluir mis estudios universitarios.</p>
+        </section>
+
+        <!-- Hobbies -->
+        <article id="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Ir al gimnasio 🏋️</li>
+                <li>Practicar fotografía 📸</li>
+                <li>Salir de ruta en RZR 🚙</li>
+                <li>Jugar videojuegos 🎮</li>
+            </ul>
+        </article>
+
+        <!-- Rutina -->
+        <aside id="rutina">
+            <h4>Rutina</h4>
+            <p>Mi día comienza a las <b>6:30 a.m.</b>, después de alistarme asisto a la <i>Universidad UTL</i>.  
+            Por la tarde grabo contenido para <sup>negocios locales</sup> 📹 y en la noche voy al <sub>gimnasio</sub>.  
+            Finalmente, trabajo en edición de videos hasta medianoche.</p>
+        </aside>
+
+        <!-- Galería de imágenes -->
+        <section id="galeria">
+            <article>
+                <h2>Galería Personal</h2>
+                <img src="c:\Users\jesub\OneDrive\Documents\html\497687169_3818671958278908_5118096528703048267_n.jpg" alt="Foto" width="200" height="200">
+                <img src="c:\Users\jesub\OneDrive\Documents\html\525469733_3924777294335040_3157224889426099622_n.jpg" alt="foto 2" width="200" height="200">
+            </article>
+
+            <!-- Tabla -->
+            <article>
+                <table border="1">
+                    <caption><h2>Tabla Familiar</h2></caption>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jesús Antonio</td>
+                            <td>Beltrán Sánchez</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td>Giovany Alfonso</td>
+                            <td>Beltrán Sánchez</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Alfonso</td>
+                            <td>Beltrán Córdova</td>
+                            <td>47</td>
+                        </tr>
+                        <tr>
+                            <td>Giuliana Beatriz</td>
+                            <td>Sánchez Arciniega</td>
+                            <td>44</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <!-- Video -->
+        <section>
+            <h2>Video que me inspira</h2>
+            <iframe width="560" height="315" 
+                src="https://youtu.be/Je97JjZVPwI" 
+                title="YouTube video que me inspira" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Web Info de TI | Contacto: <a href="mailto:jesu.be01@gmail.com">jesu.be01@gmail.com</a></p>
+        <nav>
+            <a href="http://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="http://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
